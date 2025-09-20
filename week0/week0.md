@@ -48,3 +48,17 @@ sudo apt install make build-essential clang bison flex \
 make config-gcc
 make
 sudo make install
+```
+### Iverilog
+Steps to install iverilog:
+```bash
+sudo apt-get update
+sudo apt-get install iverilog
+```
+### gtkwave
+Steps to install gtkwave
+```bash
+sudo apt-get update
+sudo apt install gtkwave 
+```
+
