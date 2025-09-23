@@ -49,16 +49,24 @@ make config-gcc
 make
 sudo make install
 ```
+<img width="940" height="685" alt="image" src="https://github.com/user-attachments/assets/f65dea7f-a4d5-46d7-ba40-889b28536187" />
+
 ### Iverilog
 Steps to install iverilog:
 ```bash
 sudo apt-get update
 sudo apt-get install iverilog
 ```
+
+<img width="940" height="242" alt="image" src="https://github.com/user-attachments/assets/74b84ddc-2683-4af8-9964-53f17577ba19" />
+
 ### gtkwave
 Steps to install gtkwave
 ```bash
 sudo apt-get update
 sudo apt install gtkwave 
 ```
+<img width="940" height="171" alt="image" src="https://github.com/user-attachments/assets/df2a4ecb-2981-472b-bc1c-fd5870f338bc" />
+<img width="940" height="602" alt="image" src="https://github.com/user-attachments/assets/966b570d-2529-4259-90d2-d6a7710cead5" />
+
 
