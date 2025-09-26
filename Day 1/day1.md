@@ -13,7 +13,7 @@
 ---
 
 ## Labs using iverilog and gtkwave
-- An example of **2:1 MUX** was taken.  
+An example of **2:1 MUX** was taken.  
 
 **Sample module code:**
 
@@ -49,8 +49,7 @@
 ## Introduction to Yosys and Logic Synthesis
 - **Yosys** is a synthesizer used to convert **RTL → netlist**.  
 - RTL is the behavioral representation in HDL.  
-- Netlist is representation of the design using **standard cells** from `.lib`.  
-- Testbench for netlist is same as RTL.  
+- Netlist is representation of the design using **standard cells** from `.lib`. Testbench for netlist is same as RTL.  
 - `.lib` contains all modules, standard cells of different flavors.  
 - Constraints help in selecting modules (trade-offs: speed, area, power).  
 
