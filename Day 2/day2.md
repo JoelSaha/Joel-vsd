@@ -1,11 +1,33 @@
 # Day 2 - Timing libs, Hierarchical vs Flat Synthesis and Efficient Flop Coding Styles
 
 ## Introduction to Timing .libs
-- Explanation of what a timing library (.lib) is  
-- Role of .lib in synthesis and timing analysis  
-- How standard cell characterization is stored in .lib files  
-- Key parameters: setup time, hold time, propagation delay, power, etc.  
+# Standard Cell Libraries and PVT Characterization
 
+## PVT (Process, Voltage, Temperature)
+Standard cell libraries are characterized across different PVT corners to capture variations in circuit behavior.
+
+- **Process (P):** Variations due to fabrication.  
+  - `tt` → typical  
+  - `ff` → fast-fast (stronger transistors, faster)  
+  - `ss` → slow-slow (weaker transistors, slower)  
+  - `fs / sf` → mixed cases  
+
+- **Voltage (V):** Supply voltage variations.  
+  - Example: `1v80` = 1.8 V  
+
+- **Temperature (T):** Operating temperature variations.  
+  - Example: `025C` = 25 °C
+
+- **Additional information included in cell are:**
+    - Leakage power based on the combination of inputs
+    - Area
+    - Power ports
+    - Input capacitance
+    - Power associated with the pin
+    - Transition
+    - Delay
+
+      
 ## Hierarchical vs Flat Synthesis
 - **Hierarchical Synthesis**
   - Maintains design hierarchy during synthesis  
