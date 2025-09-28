@@ -17,6 +17,7 @@ Standard cell libraries are characterized across different PVT corners to captur
 
 - **Temperature (T):** Operating temperature variations.  
   - Example: `025C` = 25 °C
+<img width="910" height="753" alt="image" src="https://github.com/user-attachments/assets/4e05901e-c66c-43a7-9280-8a9319e687b8" />
 
 - **Additional information included in cell are:**
     - Leakage power based on the combination of inputs
