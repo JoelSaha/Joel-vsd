@@ -1,9 +1,6 @@
 # Day 2 - Timing libs, Hierarchical vs Flat Synthesis and Efficient Flop Coding Styles
 
 ## Introduction to Timing .libs
-# Standard Cell Libraries and PVT Characterization
-
-## PVT (Process, Voltage, Temperature)
 Standard cell libraries are characterized across different PVT corners to capture variations in circuit behavior.
 
 - **Process (P):** Variations due to fabrication.  
